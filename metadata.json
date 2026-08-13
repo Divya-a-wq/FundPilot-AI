@@ -1,0 +1,6 @@
+{
+  "name": "FundPilot AI",
+  "description": "AI-powered startup funding copilot for idea validation, market research, financial projections, pitch deck generation, and investor matching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
