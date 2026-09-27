@@ -17,12 +17,12 @@ async function startServer() {
   // API Routes
   app.use('/api', apiRouter);
 
-  // Health check endpoint
+
   app.get('/api/health', (req, res) => {
     res.json({ status: 'ok', service: 'FundPilot AI', timestamp: new Date().toISOString() });
   });
 
-  // Vite development middleware vs Static Production serving
+
   if (process.env.NODE_ENV !== 'production') {
     const vite = await createViteServer({
       server: { middlewareMode: true },
